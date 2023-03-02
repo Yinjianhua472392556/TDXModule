@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		233D070018255F0B52EAFC08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		233D070018255F0B52EAFC08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2415B34C132E6DC55795EFF1 /* Pods_TDXModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDXModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BD319B0FC7F980193DBCF34 /* TDXModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TDXModule.podspec; path = ../TDXModule.podspec; sourceTree = "<group>"; };
+		4BD319B0FC7F980193DBCF34 /* TDXModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TDXModule.podspec; path = ../TDXModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* TDXModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDXModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		7ABB82CDB32B0FE881E9F9F0 /* Pods-TDXModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDXModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TDXModule_Example/Pods-TDXModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		840C68DB2BB53C3D6B3F2CE7 /* Pods-TDXModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDXModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TDXModule_Example/Pods-TDXModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD7454F88DE04811F7CB0035 /* Pods-TDXModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDXModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-TDXModule_Tests/Pods-TDXModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D656BDE79B521B638AD50769 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D656BDE79B521B638AD50769 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9C429114F1091240944127D /* Pods_TDXModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDXModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF4693AF44BA16AD2309FA4 /* Pods-TDXModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDXModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TDXModule_Tests/Pods-TDXModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				ECF4693AF44BA16AD2309FA4 /* Pods-TDXModule_Tests.debug.xcconfig */,
 				CD7454F88DE04811F7CB0035 /* Pods-TDXModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
