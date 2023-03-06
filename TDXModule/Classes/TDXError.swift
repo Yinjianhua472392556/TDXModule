@@ -104,3 +104,25 @@ public enum TDXFuncError: Error {
     }
 
 }
+
+
+public enum TDXSemanticAnalyzerError: Error {
+    
+    case unexpectedVar(name: String, line: Int, column: Int)
+    case unexpectedFunc(name: String, line: Int, column: Int)
+    
+    var description: String {
+        var desc = ""
+        switch self {
+        case .unexpectedVar(let name, let line, let column):
+            desc = "未识别到的变量: \(name) : line: \(line)，column: \(column)"
+        case .unexpectedFunc(let name, let line, let column):
+            desc = "未识别到的函数: \(name) : line: \(line)，column: \(column)"
+        }
+        return "❗️❗️❗️ERROR: 语义分析报错: " + desc
+    }
+    
+    public func throwError() {
+//        debugPrint(description)
+    }
+}
